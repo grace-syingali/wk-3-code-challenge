@@ -1,5 +1,5 @@
 // Fetch data from db.json
-fetch("db.json")
+fetch("http://localhost:3000/films")
   .then((response) => response.json())
   .then((data) => {
     const movieList = data.films;
