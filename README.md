@@ -1,5 +1,5 @@
 # wk-3-code-challenge
-# Movie Ticket Booking System
+# Movie ticket system
 This is a simple web application that allows users to view upcoming movies and purchase tickets for their desired movie showtimes.
 ## Features
 - View a list of upcoming movies.
@@ -10,7 +10,7 @@ This is a simple web application that allows users to view upcoming movies and p
 - HTML
 - CSS
 - JavaScript
-## How to use it
+## How to use 
 - Clone the repository in your machine
 - Open it up on vscode or your preffered place
 - Open the index.html file and go live
