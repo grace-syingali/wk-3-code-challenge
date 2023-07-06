@@ -1,5 +1,5 @@
 # wk-3-code-challenge
-# Movie ticket system
+# Movie ticketing  system
 This is a simple web application that allows users to view upcoming movies and purchase tickets for their desired movie showtimes.
 ## Features
 - View a list of upcoming movies.
