@@ -1,44 +1,30 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Week3-code-challenge Movie Theatre</title>
+  <title>Movie App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bazey Movie Room</h1>
-    <section>
-        <div id="movie-bar">
-            <h2>Upcoming  streams</h2>
-            <ul id="films">
-              <li class="filmItem">PlaceHolder li</li>
-            </ul>
-        </div>
-        <div id="movie-shown">
-            <h3 id="movie-name" class="movieName">Movie Name</h3>
-        <img
-          id="movie-image"
-          src=""
-          alt="Movies"
-        />
-        
-        <div id="show-time" class="showTime">showTime</div>
-        <div id="run-time" class="runTime">runTime</div>
+  <h1>Bazey Movie Room</h1>
+  <section>
+      <div id="movie-bar">
+          <h2>Movies streamed</h2>
+          <ul id="films">
+            <li class="filmItem">PlaceHolder li</li>
+          </ul>
       </div>
     </section>
+  <div class="movie-details">
+    <img class="poster" src="" alt="Movie Poster">
+    <h2 class="title"></h2>
+    <p class="runtime"></p>
+    <p class="showtime"></p>
+    <p class="tickets"></p>
+    <button class="buy-ticket">Buy Ticket</button>
+  </div>
 
+  <ul id="films"></ul>
 
-    <section id="film-tickets">
-            <div id="ticket-Holder"></div>
-            <div>remaining tickets</div>
-            <button id="buy-ticket">Buy Tickets</button>
-          </section>
-          <script src="index.js"></script> 
-
-
-    </section>
+  <script src="app.js"></script>
 </body>
 </html>
