@@ -1,49 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>FLATDANGO</title>
-    <header>Bazey Movie Room</header>
+    <link rel="stylesheet" href="style.css">
+    <title>Week3-code-challenge Movie Theatre</title>
 </head>
 <body>
-    <header>
-        <h1>Flatdango</h1>
-      </header>
-    
-      <div class="container">
-        <section id="hero-section">
-          <div class="movie-details">
-            <h2 class="movie-title">Movie Title</h2>
-            <div class="movie-poster-container">
-              <img class="movie-poster" src="" alt="Movie Poster" />
-            </div>
-            <div class="movie-info">
-              <p class="info-label">Showtime:</p>
-              <p class="showtime">showtime</p>
-              <p class="info-label">Runtime:</p>
-              <p class="runtime">runtime</p>
-            </div>
-          </div>
-          <div class="movie-menu">
-            <h2>Movies</h2>
-            <ul class="films">
-              <li class="film-item">PlaceHolder li</li>
+    <h1>Bazey Movie Room</h1>
+    <section>
+        <div id="movie-bar">
+            <h2>Upcoming  streams</h2>
+            <ul id="films">
+              <li class="filmItem">PlaceHolder li</li>
             </ul>
-          </div>
-        </section>
-    
-        <section id="movie-tickets">
-          <div class="ticket-counter"></div>
-          <div class="tickets-remaining">TICKETS REMAINING</div>
-          <button class="buy-ticket">Buy Tickets</button>
-        </section>
+        </div>
+        <div id="movie-shown">
+            <h3 id="movie-name" class="movieName">Movie Name</h3>
+        <img
+          id="movie-image"
+          src=""
+          alt="Movies"
+        />
+        
+        <div id="show-time" class="showTime">showTime</div>
+        <div id="run-time" class="runTime">runTime</div>
       </div>
-    
-    <ul id="films"></ul>
-    <div id="card"></div>
-    <script src="script.js"></script>
+    </section>
+
+
+    <section id="film-tickets">
+            <div id="ticket-Holder"></div>
+            <div>remaining tickets</div>
+            <button id="buy-ticket">Buy Tickets</button>
+          </section>
+          <script src="index.js"></script> 
+
+
+    </section>
 </body>
 </html>

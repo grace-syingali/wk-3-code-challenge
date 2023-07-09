@@ -1,145 +1,117 @@
-body{
-background-color: #121212;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
+body, h1, h2, h3, ul, li {
   margin: 0;
   padding: 0;
+  background-color: blueviolet
 }
-header {
-    background-color: #008b8b;
-    text-align: center;
-    font-size: xx-large;
-    font-style: initial;
-    font-style: oblique;
-    font-stretch: extra-expanded;
-    box-shadow: #ffffff;
-    color: rgb(120, 120, 126);
-  }
-  .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+  color: #333;
   padding: 20px;
- background-color: aqua;
-  justify-items: center;
 }
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(72, 83, 61);
-    color: rgb(99, 99, 126);
-  }
-  li {
-    cursor: pointer;
-    background-color: #1a1a1b;
-    color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #1f1f1f;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease;
-  }
-  li:hover {
-    background-color: #5f7499;
-    background-color: #404040;
-  }
-  
-  .film-card {
-    display: none;
-    background-color: #a85751;
-    padding: 10px;
-    background-color: #2d2d2d;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #7d2e68;
-    height: 600px;
-    position: relative;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .film-card.active {
-    display: block;
-  }
-  
-  .film-card-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    object-fit: cover;
-  }
-  
-  .film-card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .film-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .film-description {
-    font-size: 18px;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .film-byline {
-    font-size: 16px;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .film-btn {
-    background-color: #011638;
-    color: #fff;
-    background-color: #008b8b;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .film-btn:hover {
-    background-color: #008b8b;
-    background-color: #005757;
-  }
-  
-  .highlight {
-    background-color: #011638;
-    color: #dff8eb;
-  }
-  footer {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .bold-text {
-    font-weight: bold;
-  }
-  .bold-italic-text {
-    font-weight: bold;
-    font-style: italic;
-  }
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-transform: lowercase;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+
+#movie-bar {
+  background-color: springgreen;
+  padding: 20px;
+  color: #fff;
+}
+
+
+#movie-bar h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+
+#films {
+  list-style: none;
+  padding: 0;
+}
+
+.filmItem {
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #555;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.filmItem:hover {
+  background-color: red;
+}
+
+
+#movie-shown {
+  background-color:silver;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+#movie-name {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+#movie-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.showTime, .runTime {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+
+#film-tickets {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#ticket-Holder {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+
+#buy-ticket {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: lemonchiffon;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+#buy-ticket:hover {
+  background-color: #555;
+}
