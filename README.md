@@ -20,7 +20,7 @@ This is a simple web application that allows users to view upcoming movies and p
 
 - index.html: The main HTML file that displays the movie ticket booking system.
 - style.css: The CSS file that defines the styles and layout of the application.
-- script.js: The JavaScript file that contains the logic and functionality of the application.
+- app.js: The JavaScript file that contains the logic and functionality of the application.
 - db.json: A JSON file that contains the movie data used by the application.
 ## License
 - This project is licensed under the MIT License.
