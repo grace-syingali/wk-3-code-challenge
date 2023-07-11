@@ -23,7 +23,7 @@ ul {
 
 li {
   cursor: pointer;
-  background-color: #1a1a1b;
+  background-color:blue;
   color: #fff;
   padding: 10px;
   margin-bottom: 10px;
@@ -45,7 +45,7 @@ li:hover {
 
 .film-card {
   display: none;
-  background-color: #A85751;
+  background-color: red;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px #7D2E68;
