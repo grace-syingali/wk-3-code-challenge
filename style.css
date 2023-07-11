@@ -8,7 +8,7 @@
 .movies {
   flex: 1 1 300px;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: blueviolet;
 }
 
 .movies ul {
@@ -24,14 +24,14 @@
 .movie-details {
   flex: 1 1 300px;
   padding: 20px;
-  background-color: #e5e5e5;
+  background-color: lime;
 }
 
 #poster {
   width: 200px;
   height: 300px;
   margin-bottom: 10px;
-  background-color: #ddd;
+  background-color:yellowgreen;
 }
 
 #buy-ticket {
@@ -41,4 +41,18 @@
 
 .sold-out {
   color: red;
+}
+button {
+  background-color: #011638;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #008b8b;
 }
