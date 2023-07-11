@@ -1,3 +1,10 @@
+body {
+  background-color: gold;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -55,4 +62,22 @@ button {
 
 button:hover {
   background-color: #008b8b;
+}
+
+
+.bold-text {
+  font-weight: bold;
+}
+
+.bold-italic-text {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.title {
+  text-align: center;
+  color: gold;
+  padding: 20px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
