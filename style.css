@@ -1,127 +1,44 @@
-body {
-  background-color: yellow;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
 .container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 30%;
-  margin-right: 10%;
-}
-
-li {
-  cursor: pointer;
-  background-color:blue;
-  color: #fff;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-li:hover {
-  background-color: #5f7499;
-}
-
-#card {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 60%;
-  height: 555px;
+  flex-wrap: wrap;
 }
 
-.film-card {
-  display: none;
-  background-color: red;
+.movies {
+  flex: 1 1 300px;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #7D2E68;
-  width: 100%;
-  max-width: 500px;
-  height: 100%;
-  position: relative;
+  background-color: #f5f5f5;
 }
 
-.active {
-  display: block;
-}
-
-img {
-  margin-right: 20px;
-  border-radius: 5px;
-  height: 300px;
-  width: 200px;
-  object-fit: cover;
-  object-position: center;
-}
-
-h2, p {
-  margin: 0;
+.movies ul {
+  list-style-type: none;
   padding: 0;
-  color: #fff;
 }
 
-h2 {
-  font-size: 24px;
+.film.item {
   margin-bottom: 10px;
-}
-
-p {
-  margin-bottom: 10px;
-}
-
-.button-container {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
-}
-
-button {
-  background-color: #011638;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
   cursor: pointer;
-  margin-left: 10px;
-  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #008b8b;
-}
-
-.highlight {
-  background-color: #011638;
-  color: #DFF8EB;
-}
-
-.bold-text {
-  font-weight: bold;
-}
-
-.bold-italic-text {
-  font-weight: bold;
-  font-style: italic;
-}
-
-.title {
-  text-align: center;
-  color: #fff;
+.movie-details {
+  flex: 1 1 300px;
   padding: 20px;
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #e5e5e5;
+}
+
+#poster {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+}
+
+#buy-ticket {
+  display: block;
+  margin-top: 10px;
+}
+
+.sold-out {
+  color: red;
 }
