@@ -1,9 +1,11 @@
 body {
-  background-color: gold;
+  background-color: silver;
   background-size: cover;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: italic;
+  
+
 }
 .container {
   display: flex;
@@ -31,7 +33,7 @@ body {
 .movie-details {
   flex: 1 1 300px;
   padding: 20px;
-  background-color: lime;
+  background-color: silver;
 }
 
 #poster {
